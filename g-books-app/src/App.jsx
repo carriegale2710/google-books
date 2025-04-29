@@ -7,14 +7,16 @@ function App() {
   return (
     <>
       <header>
-        <h1>Google Books Search</h1>
+        <h1>Google Books</h1>
         <p>Search the world's most comprehensive index of full-text books.</p>
       </header>
-      <section>
-        <label htmlFor="search-bar">Enter Search</label>
-        <input type="text" name='search-bar'placeholder='title/author/year'/>
+      <form>
+        <>
+          <label htmlFor="search-bar">Enter text</label><br />
+          <input type="text" name='search-bar'placeholder='Type in title,author,year'/>
+        </>
         <button type='submit'>Search</button>
-      </section>
+      </form>
     </>
   )
 }

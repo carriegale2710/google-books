@@ -8,6 +8,8 @@
  */
 
 :root {
+  max-width: 100vw;
+
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -43,62 +45,56 @@ body {
   min-height: 100vh;
 }
 
-//headers
+//font styles
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  margin: 1em;
+}
+
+p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
 }
 
 
-//Buttons
+//Button - styling
 
 button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.4em 2em;
+  margin: 0.5em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1129df;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 
 //Micro-interactions
 
-button:hover {
-  background-color: green;
-}
+
 
 
 //Site-Responsiveness
 
+//NOTE - media queries - flexbox enough for now - add after complexity 
 
-// device size - media queries - mvp
-@media mobile {
-  
-}
+//1. device size 
+  // - mobile: < 481px  
+  // - iPad/Tablets: 481px-768px  
+  // - small screens,laptops: 769px-1024px  
+  // - desktops, large screens: 1025px-1200px  
+  // - extra large screens: 1201px >  
 
-@media tablet {
-  
-}
-
-@media desktop {
-  
-}
-
-
-//device orientation
-
-@media landscape {
-  
-}
+//2. device orientation - add if needed later
 
 
 
-
-//light mode - bonus
+//BONUS
+//light mode vs //dark mode
 
 // @media (prefers-color-scheme: light) {
 //   :root {
@@ -114,4 +110,3 @@ button:hover {
 // }
 
 
-//dark mode

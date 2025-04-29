@@ -11,7 +11,11 @@
 
 
 ## Useful Resources:
+
 - [Using Async Await](https://dmitripavlutin.com/javascript-fetch-async-await/)
 - [Using Postman to Test APIs](https://www.blazemeter.com/blog/how-use-postman-test-apis)
+
+### Styling:
 - [Dialog element](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog)
+- [Media Queries](https://medium.com/geekculture/everything-about-css-media-queries-3e9786294b81)
 
