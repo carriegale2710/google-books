@@ -1,0 +1,41 @@
+[
+    {
+        "author": "Donald A. Norman",
+        "title": "Living with Complexity",
+        "imageLink": "https://upload.wikimedia.org/wikipedia/en/7/74/Preachers_daughter_ethel_cain.png",
+        "year": 2010,
+        "description": "But we too have to do our part: we have to take the time to learn the structure and practice the skills. This is how we mastered reading and writing, driving a car, and playing sports, and this is how we can master our complex tools."
+    },
+    {
+        "artist": "KNEECAP",
+        "title": "Fine Art",
+        "imageLink": "https://upload.wikimedia.org/wikipedia/en/c/c4/Kneecap_-_Fine_Art.png",
+        "rating": 4.2,
+        "year": 2024,
+        "isOnSale": false
+    },
+    {
+        "artist": "Extortion",
+        "title": "Threats",
+        "imageLink": "https://f4.bcbits.com/img/a3520973535_16.jpg",
+        "rating": 5,
+        "year": 2024,
+        "isOnSale": false
+    },
+    {
+        "artist": "Trapped Under Ice",
+        "title": "Big Kiss Goodnight",
+        "imageLink": "https://upload.wikimedia.org/wikipedia/en/4/40/Big_Kiss_Goodnight.jpg",
+        "rating": 3.5,
+        "year": 2011,
+        "isOnSale": false
+    },
+    {
+        "artist": "Jawbreaker",
+        "title": "24 Hour Revenge Therapy",
+        "imageLink": "https://upload.wikimedia.org/wikipedia/en/1/18/Jawbreaker_-_24_Hour_Revenge_Therapy_cover.jpg",
+        "rating": 5,
+        "year": 1994,
+        "isOnSale": true
+    }
+]
