@@ -1,3 +1,12 @@
+//GLOBAL STYLING
+
+/* Styling (required):
+  This application should look good, take some time to pick a palette and plan out your design 
+  - this will also help with splitting the app into React components. 
+  You can use tools like Figma or wireframe pro to plan what your application is going to look like.
+  Use modules for styling, don't forget about other SCSS features, like a separate file for palette or variables.
+ */
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -13,6 +22,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+//Links
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -22,6 +33,8 @@ a:hover {
   color: #535bf2;
 }
 
+//Body
+
 body {
   margin: 0;
   display: flex;
@@ -30,39 +43,75 @@ body {
   min-height: 100vh;
 }
 
+//headers
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
 
+
+//Buttons
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
+  padding: 0.4em 2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #1129df;
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
+//Micro-interactions
+
 button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  background-color: green;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+
+//Site-Responsiveness
+
+
+// device size - media queries - mvp
+@media mobile {
+  
 }
+
+@media tablet {
+  
+}
+
+@media desktop {
+  
+}
+
+
+//device orientation
+
+@media landscape {
+  
+}
+
+
+
+
+//light mode - bonus
+
+// @media (prefers-color-scheme: light) {
+//   :root {
+//     color: #213547;
+//     background-color: #ffffff;
+//   }
+//   a:hover {
+//     color: #747bff;
+//   }
+//   button {
+//     background-color: #f9f9f9;
+//   }
+// }
+
+
+//dark mode

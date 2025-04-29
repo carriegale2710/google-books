@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.css'
+import './App.scss'
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -8,10 +8,12 @@ function App() {
     <>
       <header>
         <h1>Google Books Search</h1>
+        <p>Search the world's most comprehensive index of full-text books.</p>
       </header>
       <section>
-        <label htmlFor="search-bar">Search Books</label>
-        <input type="text" name='search-bar'placeholder='Enter book title/author/year'/>
+        <label htmlFor="search-bar">Enter Search</label>
+        <input type="text" name='search-bar'placeholder='title/author/year'/>
+        <button type='submit'>Search</button>
       </section>
     </>
   )
