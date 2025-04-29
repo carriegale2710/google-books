@@ -21,4 +21,5 @@
 ### Styling:
 - [Dialog element](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog)
 - [Media Queries](https://medium.com/geekculture/everything-about-css-media-queries-3e9786294b81)
+- [Radio Group](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/radio)
 
