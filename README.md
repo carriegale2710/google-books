@@ -6,12 +6,15 @@
 - Trello Board: https://trello.com/b/F0uJrWLM/google-books-api-friday-2nd-may 
 
 ## Google Books: 
-  - UI: https://books.google.com/
   - API: https://developers.google.com/books/docs/v1/using#WorkingVolumes
+  - UI Layout: 
+    - Search Page: https://books.google.com/
+      - ![search-pg](image-1.png)
+    - Results Page: https://www.google.com/search?udm=36&q=Don+Norman 
+      - ![results-pg](image.png)
 
 
 ## Useful Resources:
-
 - [Using Async Await](https://dmitripavlutin.com/javascript-fetch-async-await/)
 - [Using Postman to Test APIs](https://www.blazemeter.com/blog/how-use-postman-test-apis)
 
