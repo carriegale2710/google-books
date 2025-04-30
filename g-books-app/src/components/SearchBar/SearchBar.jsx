@@ -1,22 +1,26 @@
 import { useState } from "react";
-import { getBooksBySearchTerm } from "../../services/book-services";
 import "./SearchBar.module.scss";
 
 const SearchBar = () => {
   //getting searchterm string from user input state
   //create state, starts as empty string
   const [searchTerm, setSearchTerm] = useState("");
-  //only call API when button is clicked
+
+  //only call API when submit button is clicked
   const handleSubmit = (e) => {
     e.preventDefault();
+    // console.log(e);
+    // const formData = new FormData(e.target);
+    // console.log(formData);
     try {
-      console.log(getBooksBySearchTerm(searchTerm));
+      console.log(searchTerm);
     } catch (error) {
       console.log("Error: " + error);
     } finally {
       //reset form
     }
   };
+
   return (
     <form>
       <label htmlFor="search-input">
