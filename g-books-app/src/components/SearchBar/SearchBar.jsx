@@ -1,5 +1,7 @@
-import React from 'react';
-import FilterBar
+
+//send user selected options from the FilterBar to include into the returned formData 
+// -> passes filter tags along with the search term entered by user upon click submit button
+// -> pass onto api to fetch (BooksLoader)
 
 const SearchBar = () => {
   return (
