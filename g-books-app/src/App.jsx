@@ -1,9 +1,8 @@
 import { useState } from 'react';
+import styles from "./App.scss"
 import BooksList from './components/BooksList/BooksList';
 import SearchBar from './components/SearchBar/SearchBar';
-import FilterBar
-import './App.scss';
-
+import FilterBar from './components/FilterBar/FilterBar';
 
 function App() {
   //const [count, setCount] = useState(0)
