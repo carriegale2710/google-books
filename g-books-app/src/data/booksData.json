@@ -2,40 +2,64 @@
     {
         "author": "Donald A. Norman",
         "title": "Living with Complexity",
-        "imageLink": "https://upload.wikimedia.org/wikipedia/en/7/74/Preachers_daughter_ethel_cain.png",
+        "imageLink": "https://bookoutlet.com/_next/image?url=https%3A%2F%2Fimages.bookoutlet.com%2Fcovers%2Flarge%2Fisbn978026%2F9780262528948-l.jpg&w=640&q=75",
+        "year": 2016,
+        "description": "Why we don't really want simplicity, and how we can learn to live with complexity."
+    },
+    {
+        "author": "Steve Krug",
+        "title": "Don't Make Me Think, Revisited",
+        "imageLink": "https://m.media-amazon.com/images/I/617rPny7-LL.jpg",
+        "year": 2014,
+        "description": "A common-sense approach to web usability that remains a UX design classic."
+    },
+    {
+        "author": "Donald A. Norman",
+        "title": "The Design of Everyday Things",
+        "imageLink": "https://m.media-amazon.com/images/I/619ncDeLijL.jpg",
+        "year": 2013,
+        "description": "A foundational text in design thinking that explains how design serves as the communication between object and user."
+    },
+    {
+        "author": "Jesse James Garrett",
+        "title": "The Elements of User Experience",
+        "imageLink": "https://m.media-amazon.com/images/I/81gwdJ-H1iL._AC_UF1000,1000_QL80_.jpg",
         "year": 2010,
-        "description": "But we too have to do our part: we have to take the time to learn the structure and practice the skills. This is how we mastered reading and writing, driving a car, and playing sports, and this is how we can master our complex tools."
+        "description": "An essential guide to the layers and processes involved in creating great user experiences on the web."
     },
     {
-        "artist": "KNEECAP",
-        "title": "Fine Art",
-        "imageLink": "https://upload.wikimedia.org/wikipedia/en/c/c4/Kneecap_-_Fine_Art.png",
-        "rating": 4.2,
-        "year": 2024,
-        "isOnSale": false
+        "author": "Alan Cooper",
+        "title": "About Face: The Essentials of Interaction Design",
+        "imageLink": "https://m.media-amazon.com/images/I/51BoeCq3BkS.jpg",
+        "year": 2014,
+        "description": "A comprehensive guide to interaction design, covering principles, patterns, and personas."
     },
     {
-        "artist": "Extortion",
-        "title": "Threats",
-        "imageLink": "https://f4.bcbits.com/img/a3520973535_16.jpg",
-        "rating": 5,
-        "year": 2024,
-        "isOnSale": false
+        "author": "Kim Goodwin",
+        "title": "Designing for the Digital Age",
+        "imageLink": "https://m.media-amazon.com/images/I/61JVCo7ldpL.jpg",
+        "year": 2009,
+        "description": "A practical guide to creating effective designs for complex digital products and systems."
     },
     {
-        "artist": "Trapped Under Ice",
-        "title": "Big Kiss Goodnight",
-        "imageLink": "https://upload.wikimedia.org/wikipedia/en/4/40/Big_Kiss_Goodnight.jpg",
-        "rating": 3.5,
-        "year": 2011,
-        "isOnSale": false
+        "author": "Leah Buley",
+        "title": "The User Experience Team of One",
+        "imageLink": "https://m.media-amazon.com/images/I/81QroKJ3PhL.jpg",
+        "year": 2013,
+        "description": "A survival guide for solo UX practitioners in companies without formal UX teams."
     },
     {
-        "artist": "Jawbreaker",
-        "title": "24 Hour Revenge Therapy",
-        "imageLink": "https://upload.wikimedia.org/wikipedia/en/1/18/Jawbreaker_-_24_Hour_Revenge_Therapy_cover.jpg",
-        "rating": 5,
-        "year": 1994,
-        "isOnSale": true
+        "author": "Indi Young",
+        "title": "Mental Models",
+        "imageLink": "https://m.media-amazon.com/images/I/71bNRvwhjML.jpg",
+        "year": 2008,
+        "description": "Introduces a powerful method for understanding user behavior and designing better experiences based on users' thought processes."
+    },
+    {
+        "author": "Peter Morville and Louis Rosenfeld",
+        "title": "Information Architecture for the World Wide Web",
+        "imageLink": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1328834902i/70132.jpg",
+        "year": 2006,
+        "description": "A classic guide to organizing and structuring content for websites and digital products."
     }
 ]
