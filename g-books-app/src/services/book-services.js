@@ -1,40 +1,35 @@
 export const getBooksBySearchTerm = async (searchTerm) => {
-    
-    //user input validation 
-    if (searchTerm.trim() === '') throw new Error('Search term cannot be empty');
+  //user input validation
+  if (searchTerm.trim() === "") throw new Error("Search term cannot be empty");
 
-    //API call
-    
-    // Specify the API endpoint for user data
+  //API call
+
+  // Specify the API endpoint for user data
   const apiUrl = `https://www.googleapis.com/books/v1/volumes?q=${searchTerm}&=limit=10`;
   await fetch(apiUrl) // Make a GET request using the Fetch API
-  .then(response => {
-      if(!response.ok){//checking data was successfully fetched
-          throw new Error(`Failed to fetch data`);
-      };
-      if(response.totalItems === 0){ //checking empty results
-          throw new Error(`No books matched your search query ${searchTerm}`)
-      };
-    return response.json();
-  })
-  .then(data => { // Process the retrieved user data
-    console.log('Books Found:', data.totalItems);
-    // console.log('Book Data:', data.items);
-    const booksList = data.items.map((volume)=> volume.volumeInfo)
-    console.log(booksList);
-  })
-  .catch(error => { //Catch and provide error messages
-    console.error('Error:', error);
-  });
-
+    .then((response) => {
+      if (!response.ok) {
+        //checking data was successfully fetched
+        throw new Error(`Failed to fetch data`);
+      }
+      if (response.totalItems === 0) {
+        //checking empty results
+        throw new Error(`No books matched your search query ${searchTerm}`);
+      }
+      return response.json();
+    })
+    .then((data) => {
+      // Process the retrieved user data
+      console.log("Books Found:", data.totalItems);
+      // console.log('Book Data:', data.items);
+      const booksList = data.items.map((volume) => volume.volumeInfo);
+      console.log(booksList);
+    })
+    .catch((error) => {
+      //Catch and provide error messages
+      console.error("Error:", error);
+    });
 };
-
-
-
-
-
-
-
 
 /* NOTE :
 
