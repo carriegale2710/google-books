@@ -1,19 +1,24 @@
+import { useState } from "react";
 import { getBooksBySearchTerm } from "../../services/book-services";
 import "./SearchBar.module.scss";
 
 const SearchBar = () => {
   //getting searchterm string from user input state
-  const [searchTerm, setSearchTerm] = useState(""); //1.create state
-  const handleClick = (e) => {
-    setSearchTerm(e.target.value);
+  //create state, starts as empty string
+  const [searchTerm, setSearchTerm] = useState("");
+  //only call API when button is clicked
+  const handleSubmit = (e) => {
+    e.preventDefault();
     try {
-      getBooksBySearchTerm(searchTerm);
+      console.log(getBooksBySearchTerm(searchTerm));
     } catch (error) {
       console.log("Error: " + error);
+    } finally {
+      //reset form
     }
   };
   return (
-    <div>
+    <form>
       <label htmlFor="search-input">
         Search for:
         <input
@@ -21,13 +26,15 @@ const SearchBar = () => {
           name="search-input"
           id="search-input"
           placeholder={`Enter search term`}
+          value={searchTerm} //display value controlled by react state
+          onChange={(event) => setSearchTerm(event.target.value)} // when user types, update search term to new value
         />
       </label>
-      <button onClick={handleClick} type="submit" id="search-button">
+      <button onClick={handleSubmit} type="submit" id="search-button">
         Search
       </button>
       <br />
-    </div>
+    </form>
   );
 };
 
