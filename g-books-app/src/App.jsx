@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.scss';
+import FilterBar from './components/FilterBar/FilterBar';
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -13,34 +14,9 @@ function App() {
       
       <form>
 
-        {/*//SEARCH BAR INPUT*/}
-        <div> 
-        <label htmlFor="search-input">
-          Search for:
-          <input type="text" name='search-input' id="search-input"placeholder={`Type in /*get value of currentlyChecked radio input (title/author/year)*/`}/>
-        </label>
-        <button type='submit' id='search-button'>Search</button><br/>
-        </div>
+        <SearchBar />
 
-        {/*//FILTERING - uses radio inputs in form html (filter by matching titles/author/year published with search bar input) */}
-        <div id="adv-filter-wrapper">
-          <label defaultChecked={true}>
-            <input type="radio" id="filterByAny" name="adv-filter-select" value="any"/>
-            Any
-          </label>
-          <label>
-            <input type="radio" id="filterByTitle" name="adv-filter-select" value="title"/>
-            Title
-          </label>
-          <label>
-            <input type="radio" id="filterByAuthor" name="adv-filter-select" value="author"/>
-            Author
-          </label>
-          <label>
-            <input type="radio" id="filterByYear" name="adv-filter-select" value="year"/>
-            Year published
-          </label>
-        </div>
+        <FilterBar />
 
       </form>
 

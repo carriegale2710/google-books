@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import { describe, expect, it } from 'vitest';
 import userEvent from '@testing-library/user-event';
-import BookCard from './BookCardCard';
+import BookCard from './BookCard';
 
 describe('BookCard', () => {
     it('Should render', () => {
