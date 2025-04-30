@@ -3,13 +3,6 @@ import { getBooksBySearchTerm } from '../services/book-services';
 
 
 const BooksLoader = () => {
-  //a useEffect will be triggered whenever search value changes (unless null)
-  // useEffect(() => { 
-  //   if (searchValue === null) return; //initial value
-  //   setFetchStatus('Loading...');
-  //   getBooksBySearchTerm(searchValue)
-  //     .then()      
-  // })
   return (
     <div>
       <p>BooksLoader</p>
@@ -22,3 +15,12 @@ export default BooksLoader
 
 
 //hardest to test 
+
+
+//a useEffect will be triggered whenever search value changes (unless null)
+// useEffect(() => { 
+//   if (searchValue === null) return; //initial value
+//   setFetchStatus('Loading...');
+//   getBooksBySearchTerm(searchValue)
+//     .then()      
+// })

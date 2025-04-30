@@ -1,8 +1,8 @@
 import './BooksList.module.scss'
-import data from '.../test-data/booksData.json'
 
 
-const BooksList = () => {
+
+const BooksList = (data) => {
   return (
     <div>
       <h5>Found {data.length} books</h5>

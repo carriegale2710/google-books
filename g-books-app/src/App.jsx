@@ -3,19 +3,23 @@ import './App.module.scss';
 import Header from './components/Header/Header';
 import SearchBar from './components/SearchBar/SearchBar';
 import BooksList from './components/BooksList/BooksList';
+import { getBooksBySearchTerm } from './services/book-services';
 
 
 function App() {
-  //const [count, setCount] = useState(0)
+  // const [searchTerm, setSearchTerm] = useState(null)
+  
   
   return (
     <>
-    <Header />
-    <SearchBar/>
-      <section>
-        <div><p id="loading-message" className='message hidden' >Loading...</p></div>
-        <BooksList />
-      </section>
+      <Header />
+      <SearchBar/>
+      <button onClick={() => getBooksBySearchTerm('ux+design')}>search</button>
+        <section>
+          <div><p id="loading-message" className='message hidden' >Loading...</p></div>
+          <BooksList />
+          <div><p></p></div>
+        </section>
     </>
   )
 }
