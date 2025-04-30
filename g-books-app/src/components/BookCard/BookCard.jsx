@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import './BookCard.module.scss';
 
 const BookCard = ({title,content}) => {
     const [contentVisible, setContentVisible] = useState(true);

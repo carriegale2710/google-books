@@ -1,32 +1,20 @@
 import { useState } from 'react';
-import styles from "./App.scss"
-import BooksList from './components/BooksList/BooksList';
+import './App.module.scss';
+import Header from './components/Header/Header';
 import SearchBar from './components/SearchBar/SearchBar';
-import FilterBar from './components/FilterBar/FilterBar';
+import BooksList from './components/BooksList/BooksList';
+
 
 function App() {
   //const [count, setCount] = useState(0)
   
   return (
     <>
-      <header>
-        <h1>Google Books</h1>
-        <p>Search the world's most comprehensive index of full-text books.</p>
-      </header>
-      
-      <form>
-
-        <SearchBar />
-
-        <FilterBar />
-
-      </form>
-
+    <Header />
+    <SearchBar/>
       <section>
-        {/*//display loading message while waiting to fetch data (API)*/}
-        <div><p id="loading-message" className='message' >Loading...</p></div>
-
-        {/* load a grid of book results here - see album challenge lesson */}
+        <div><p id="loading-message" className='message hidden' >Loading...</p></div>
+        <BooksList />
       </section>
     </>
   )

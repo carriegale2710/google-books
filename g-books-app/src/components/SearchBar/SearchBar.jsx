@@ -1,7 +1,4 @@
-
-//send user selected options from the FilterBar to include into the returned formData 
-// -> passes filter tags along with the search term entered by user upon click submit button
-// -> pass onto api to fetch (BooksLoader)
+import "./SearchBar.module.scss";
 
 const SearchBar = () => {
   return (
@@ -16,3 +13,8 @@ const SearchBar = () => {
 }
 
 export default SearchBar;
+
+
+//send user selected options from the FilterBar to include into the returned formData 
+// -> passes filter tags along with the search term entered by user upon click submit button
+// -> pass onto api to fetch (BooksLoader)

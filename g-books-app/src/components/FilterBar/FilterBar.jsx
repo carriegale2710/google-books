@@ -1,4 +1,5 @@
 import React from 'react';
+import './FilterBar.modules.scss'
 
 const FilterBar = () => {
   return (
@@ -26,3 +27,4 @@ const FilterBar = () => {
 export default FilterBar;
 /*//FILTERING - uses radio inputs in form html 
 // (filter by matching titles/author/year published with search bar input)
+
