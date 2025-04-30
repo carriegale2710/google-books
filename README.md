@@ -9,10 +9,8 @@
   - API: https://developers.google.com/books/docs/v1/getting_started
   - UI Layout: 
     - Search Page: https://books.google.com/
-      - ![search-pg](image-1.png)
     - [Advanced Search](https://books.google.com/advanced_book_search?udm=36&q=don+norman)
     - Results Page: https://www.google.com/search?udm=36&q=Don+Norman 
-      - ![results-pg](image.png)
 
 
 ## Useful Resources:
