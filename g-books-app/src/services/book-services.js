@@ -1,7 +1,5 @@
 export const getBooksBySearchTerm = async (searchTerm) => {
-  console.log(searchTerm);
-  //user input validation
-  if (searchTerm.trim() === "") throw new Error("Search term cannot be empty");
+  console.log(`Props passed to book-services.js: searchTerm: ${searchTerm}`); //userinput as param
 
   //API call
   const apiUrl = `https://www.googleapis.com/books/v1/volumes?q=${searchTerm}&=limit=10`;
@@ -16,7 +14,7 @@ export const getBooksBySearchTerm = async (searchTerm) => {
       } else {
         console.log("Books Found:", data);
         // Process the retrieved user data
-        const bookData = await response.json();
+        const bookData = response.json();
         console.log("Book Data:", bookData.items);
         const booksList = bookData.items.map((volume) => volume.volumeInfo);
         return booksList;

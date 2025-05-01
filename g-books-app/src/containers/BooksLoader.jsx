@@ -1,17 +1,10 @@
 import { useEffect, useState } from "react";
 import { getBooksBySearchTerm } from "../services/book-services";
 
-const BooksLoader = ({ userInput, filterTags }) => {
-  console.log(userInput, filterTags);
-  if (userInput === "") {
-    return (
-      <>
-        <p>BooksLoader</p>
-      </>
-    );
-  } else {
-    const searchTerm = userInput;
-    const bookList = getBooksBySearchTerm(searchTerm);
+const BooksLoader = ({ searchTerm, runningSearch }) => {
+  if (searchTerm != "" && runningSearch == true) {
+    // console.log(`Props passed to searchTerm: ${searchTerm}`);
+    const bookList = getBooksBySearchTerm(searchTerm); //-> calls fn in book-services with userinput as param
     console.log(bookList);
     return (
       <>

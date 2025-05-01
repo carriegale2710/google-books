@@ -1,25 +1,9 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./SearchBar.module.scss";
+import { onSubmit } from "../../services/book-services";
 
-const SearchBar = () => {
-  //getting searchterm string from user input state
-  //create state, starts as empty string
-  const [searchTerm, setSearchTerm] = useState("");
-
-  //only call API when submit button is clicked
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // console.log(e);
-    // const formData = new FormData(e.target);
-    // console.log(formData);
-    try {
-      console.log(searchTerm);
-    } catch (error) {
-      console.log("Error: " + error);
-    } finally {
-      //reset form
-    }
-  };
+const SearchBar = ({ searchTerm }) => {
+  //only call API when submit button is clicked\
 
   return (
     <form>
@@ -31,10 +15,10 @@ const SearchBar = () => {
           id="search-input"
           placeholder={`Enter search term`}
           value={searchTerm} //display value controlled by react state
-          onChange={(event) => setSearchTerm(event.target.value)} // when user types, update search term to new value
+          // onChange={(event) => setSearchTerm(event.target.value)} // when user types, update search term to new value
         />
       </label>
-      <button onClick={handleSubmit} type="submit" id="search-button">
+      <button onClick={onSubmit} type="submit" id="search-button">
         Search
       </button>
       <br />
