@@ -1,26 +1,35 @@
 import { useState, useEffect } from "react";
 import "./SearchBar.module.scss";
 
-const SearchBar = ({ searchTerm }) => {
-  //only call API when submit button is clicked\
+const SearchBar = ({ onSubmit }) => {
+  //this keeps track of live inputted text by user and updates for every letter
+  const handleChange = (e) => {
+    setInputText(e.target.value);
+  };
 
+  //this sets the final searchterm string used to call API
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    onSubmit(inputText); // SHOULD ONLY WORK ON SUBMIT (submit button pressed)
+  };
+
+  //this is the actual searchbar and submit button as a form
   return (
-    <form>
+    <form onSubmit={handleSubmit}>
       <label htmlFor="search-input">
         Search for:
         <input
           type="text"
           name="search-input"
-          id="search-input"
           placeholder={`Enter search term`}
-          value={searchTerm} //display value controlled by react state
-          // onChange={(event) => setSearchTerm(event.target.value)} // when user types, update search term to new value
+          value={inputText} //display value controlled by react  - what is currently inside the input text field
+          onChange={handleChange} // when user types, update search term to new value
         />
       </label>
-      <button onClick={onSubmit} type="submit" id="search-button">
+      <br />
+      <button type="submit" id="search-button" alt-te>
         Search
       </button>
-      <br />
     </form>
   );
 };

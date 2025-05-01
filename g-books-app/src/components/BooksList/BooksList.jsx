@@ -1,10 +1,13 @@
 import "./BooksList.module.scss";
+import BookCard from "../BookCard/BookCard";
 
-const BooksList = (data) => {
+const BooksList = (booksData) => {
   return (
-    <div>
-      <h5>Found {data.length} books</h5>
-    </div>
+    <>
+      {booksData.map((book) => {
+        return <BookCard bookInfo={book} />;
+      })}
+    </>
   );
 };
 

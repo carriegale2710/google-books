@@ -5,20 +5,26 @@ export const getBooksBySearchTerm = async (searchTerm) => {
   const apiUrl = `https://www.googleapis.com/books/v1/volumes?q=${searchTerm}&=limit=10`;
   await fetch(apiUrl) // Make a GET request using the Fetch API
     .then((response) => {
+      if (searchTerm === "" || searchTerm.trim() === "") {
+        throw new Error("empty input");
+      }
+      if (searchTerm === undefined) {
+        throw new Error("input invalid");
+      }
       if (!response.ok) {
         //checking data was successfully fetched
         throw new Error(`Failed to fetch data`);
-      } else if (response.totalItems === 0) {
+      }
+      if (response.totalItems === 0) {
         //checking empty results
         throw new Error(`No books matched your search query ${searchTerm}`);
-      } else {
-        console.log("Books Found:", data);
-        // Process the retrieved user data
-        const bookData = response.json();
-        console.log("Book Data:", bookData.items);
-        const booksList = bookData.items.map((volume) => volume.volumeInfo);
-        return booksList;
-      }
+      } 
+      // Process the retrieved user data
+      const bookData = await response.json();
+      const booksList = bookData.items.map((volume) => volume.volumeInfo);
+      console.log("Books found:", booksList.title);
+      return booksList;
+      
     })
     .catch((error) => {
       //Catch and provide error messages
@@ -40,9 +46,11 @@ results = response.items.volumeInfo = {
 "authors": [
     "Jon Yablonski"
 ],
+"description": "An understanding of psychology—specifically the psychology behind how users behave and interact with digital interfaces—is perhaps the single most valuable nondesign skill a designer can have. The most elegant design can fail if it forces users to conform to the design rather than working within the \"blueprint\" of how humans perceive and process the world around them. This practical guide explains how you can apply key principles in psychology to build products and experiences that are more intuitive and human-centered. Author Jon Yablonski deconstructs familiar apps and experiences to provide clear examples of how UX designers can build experiences that adapt to how users perceive and process digital interfaces. You’ll learn: How aesthetically pleasing design creates positive responses The principles from psychology most useful for designers How these psychology principles relate to UX heuristics Predictive models including Fitts’s law, Jakob’s law, and Hick’s law Ethical implications of using psychology in design A framework for applying these principles"
+
+
 "publisher": "\"O'Reilly Media, Inc.\"",
 "publishedDate": "2020-04-21",
-"description": "An understanding of psychology—specifically the psychology behind how users behave and interact with digital interfaces—is perhaps the single most valuable nondesign skill a designer can have. The most elegant design can fail if it forces users to conform to the design rather than working within the \"blueprint\" of how humans perceive and process the world around them. This practical guide explains how you can apply key principles in psychology to build products and experiences that are more intuitive and human-centered. Author Jon Yablonski deconstructs familiar apps and experiences to provide clear examples of how UX designers can build experiences that adapt to how users perceive and process digital interfaces. You’ll learn: How aesthetically pleasing design creates positive responses The principles from psychology most useful for designers How these psychology principles relate to UX heuristics Predictive models including Fitts’s law, Jakob’s law, and Hick’s law Ethical implications of using psychology in design A framework for applying these principles"
 .
 .
 .

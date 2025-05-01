@@ -1,0 +1,780 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 1000000,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "AOneDwAAQBAJ",
+      "etag": "St/avHeGN/o",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/AOneDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Laws of UX",
+        "subtitle": "Using Psychology to Design Better Products & Services",
+        "authors": ["Jon Yablonski"],
+        "publisher": "\"O'Reilly Media, Inc.\"",
+        "publishedDate": "2020-04-21",
+        "description": "An understanding of psychology—specifically the psychology behind how users behave and interact with digital interfaces—is perhaps the single most valuable nondesign skill a designer can have. The most elegant design can fail if it forces users to conform to the design rather than working within the \"blueprint\" of how humans perceive and process the world around them. This practical guide explains how you can apply key principles in psychology to build products and experiences that are more intuitive and human-centered. Author Jon Yablonski deconstructs familiar apps and experiences to provide clear examples of how UX designers can build experiences that adapt to how users perceive and process digital interfaces. You’ll learn: How aesthetically pleasing design creates positive responses The principles from psychology most useful for designers How these psychology principles relate to UX heuristics Predictive models including Fitts’s law, Jakob’s law, and Hick’s law Ethical implications of using psychology in design A framework for applying these principles",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781492055266"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1492055263"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 126,
+        "printType": "BOOK",
+        "categories": ["Computers"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.6.6.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=AOneDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=AOneDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=AOneDwAAQBAJ&printsec=frontcover&dq=ux+design&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com.au/books?id=AOneDwAAQBAJ&dq=ux+design&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Laws_of_UX.html?hl=&id=AOneDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=AOneDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This practical guide explains how you can apply key principles in psychology to build products and experiences that are more intuitive and human-centered."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "BFomEQAAQBAJ",
+      "etag": "Er4bnSwhCcE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/BFomEQAAQBAJ",
+      "volumeInfo": {
+        "title": "The UX Book",
+        "subtitle": "Agile UX Design for a Quality User Experience",
+        "authors": ["Rex Hartson", "Pardha S. Pyla"],
+        "publisher": "Morgan Kaufmann",
+        "publishedDate": "2025-03-24",
+        "description": "The UX Book: Agile Design for a Quality User Experience, Third Edition, takes a practical, applied, hands-on approach to UX design based on the application of established and emerging best practices, principles, and proven methods to ensure a quality user experience. The approach is about practice, drawing on the creative concepts of design exploration and visioning to make designs that appeal to the emotions of users, while moving toward processes that are lightweight, rapid, and agile—to make things as good as resources permit and to value time and other resources in the process.Designed as a textbook for aspiring students and a how-to handbook and field guide for UX professionals, the book is accompanied by in-class exercises and team projects.The approach is practical rather than formal or theoretical. The primary goal is to imbue an understanding of what a good user experience is and how to achieve it. To better serve this, processes, methods, and techniques are introduced early to establish process-related concepts as context for discussion in later chapters. - A comprehensive textbook for UX/human–computer interaction (HCI) design students readymade for the classroom, complete with instructors' manual, dedicated website, sample syllabus, examples, exercises, and lecture slides - Features HCI theory, process, practice, and a host of real-world stories and contributions from industry luminaries to prepare students for working in the field - The only HCI textbook to cover agile methodology, design approaches, and a full, modern suite of classroom material (stemming from tried and tested classroom use by the authors)",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780443134449"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0443134448"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 745,
+        "printType": "BOOK",
+        "categories": ["Computers"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "2.4.4.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=BFomEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=BFomEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=BFomEQAAQBAJ&printsec=frontcover&dq=ux+design&hl=&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=BFomEQAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=BFomEQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 157.95,
+          "currencyCode": "AUD"
+        },
+        "retailPrice": {
+          "amount": 123.06,
+          "currencyCode": "AUD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=BFomEQAAQBAJ&rdid=book-BFomEQAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 157950000,
+              "currencyCode": "AUD"
+            },
+            "retailPrice": {
+              "amountInMicros": 123060000,
+              "currencyCode": "AUD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.au/books/download/The_UX_Book-sample-epub.acsm?id=BFomEQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.au/books/download/The_UX_Book-sample-pdf.acsm?id=BFomEQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=BFomEQAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The UX Book: Agile Design for a Quality User Experience, Third Edition, takes a practical, applied, hands-on approach to UX design based on the application of established and emerging best practices, principles, and proven methods to ensure ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "aHo3DwAAQBAJ",
+      "etag": "vR9+ff/OKow",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/aHo3DwAAQBAJ",
+      "volumeInfo": {
+        "title": "The User Experience Team of One",
+        "subtitle": "A Research and Design Survival Guide",
+        "authors": ["Leah Buley"],
+        "publisher": "Rosenfeld Media",
+        "publishedDate": "2013-07-09",
+        "description": "The User Experience Team of One prescribes a range of approaches that have big impact and take less time and fewer resources than the standard lineup of UX deliverables. Whether you want to cross over into user experience or you're a seasoned practitioner trying to drag your organization forward, this book gives you tools and insight for doing more with less.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781933820897"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1933820896"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 265,
+        "printType": "BOOK",
+        "categories": ["Business & Economics"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.6.6.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=aHo3DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=aHo3DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=aHo3DwAAQBAJ&printsec=frontcover&dq=ux+design&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.com.au/books?id=aHo3DwAAQBAJ&dq=ux+design&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_User_Experience_Team_of_One.html?hl=&id=aHo3DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=aHo3DwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Whether you want to cross over into user experience or you&#39;re a seasoned practitioner trying to drag your organization forward, this book gives you tools and insight for doing more with less."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "46YbDgAAQBAJ",
+      "etag": "OepSOJAoDG8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/46YbDgAAQBAJ",
+      "volumeInfo": {
+        "title": "Bottlenecks",
+        "subtitle": "Aligning UX Design with User Psychology",
+        "authors": ["David C. Evans"],
+        "publisher": "Apress",
+        "publishedDate": "2017-02-11",
+        "description": "Learn the psychological constrictions of attention, perception, memory, disposition, motivation, and social influence that determine whether customers will be receptive to your digital innovations. Bottlenecks: Aligning UX Design with User Psychology fills a need for entrepreneurs, designers, and marketing professionals in the application of foundational psychology to user-experience design. The first generation of books on the topic focused on web pages and cognitive psychology. This book covers apps, social media, in-car infotainment, and multiplayer video games, and it explores the crucial roles played by behaviorism, development, personality, and social psychology. Author David Evans is an experimental psychology Ph.D. and senior manager of consumer research at Microsoft who recounts high-stakes case studies in which behavioral theory aligned digital designs with the bottlenecks in human nature to the benefit of users and businesses alike. Innova tors in design and students of psychology will learn: The psychological processes determining users’ perception of, engagement with, and recommendation of digital innovations Examples of interfaces before and after simple psychological alignments that vastly enhanced their effectiveness Strategies for marketing and product development in an age of social media and behavioral targeting Hypotheses for research that both academics and enterprises can perform to better meet users’ needs Who This Book Is For Designers and entrepreneurs will use this book to give their innovations an edge on what are increasingly competitive platforms such as apps, bots, in-car apps, augmented reality content. Usability researchers and market researchers will leverage it to enhance their consulting and reporting. Students and lecturers in psychology departments will want it to help land employment in the private sector. Praise “Bottlenecks’ is a tight and eminently actionable read for business leaders in startups and enterprises alike. Evans gives us a rich sense of key psychological processes and even richer examples of them in action.” - Nir Eyal, Author of Hooked: How to Build Habit-Forming Products “Clients frequently ask our UX researchers and designers for deeper truths about why certain designs work and others fail. Bottlenecks offers practical explanations and evidence based on the idea that human cognition did not begin with the digital age.” - John Dirks, UX Director and Partner, Blink UX “Bottlenecks brings together two very important aspects of user experience design: understanding users and translating this into business impact. A must-read for anyone who wants to learn both.” - Josh Lamar, Sr. UX Lead, Microsoft Outlook",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781484225806"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1484225805"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 269,
+        "printType": "BOOK",
+        "categories": ["Computers"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.5.6.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=46YbDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=46YbDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=46YbDgAAQBAJ&printsec=frontcover&dq=ux+design&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=46YbDgAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=46YbDgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 74.99,
+          "currencyCode": "AUD"
+        },
+        "retailPrice": {
+          "amount": 52.04,
+          "currencyCode": "AUD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=46YbDgAAQBAJ&rdid=book-46YbDgAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 74990000,
+              "currencyCode": "AUD"
+            },
+            "retailPrice": {
+              "amountInMicros": 52040000,
+              "currencyCode": "AUD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.au/books/download/Bottlenecks-sample-epub.acsm?id=46YbDgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.au/books/download/Bottlenecks-sample-pdf.acsm?id=46YbDgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=46YbDgAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This book covers apps, social media, in-car infotainment, and multiplayer video games, and it explores the crucial roles played by behaviorism, development, personality, and social psychology."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "MrlRCwAAQBAJ",
+      "etag": "cGVINzZqM4s",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/MrlRCwAAQBAJ",
+      "volumeInfo": {
+        "title": "UX for Beginners",
+        "subtitle": "A Crash Course in 100 Short Lessons",
+        "authors": ["Joel Marsh"],
+        "publisher": "\"O'Reilly Media, Inc.\"",
+        "publishedDate": "2015-12-21",
+        "description": "Whether you want to design apps, websites, or just have an intelligent conversation about design, these quick-and-dirty lessons are for you. Based on the popular UX Crash Course from Joel Marsh?s blog?read over a million times?this book follows the real-life UX process from start-to-finish, so you can apply the skills as you learn. It is also perfect for managers, programmers, salespeople, and marketers who want to know more about designing digital products and services.-From publisher's website.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781491912669"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1491912669"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 257,
+        "printType": "BOOK",
+        "categories": ["Computers"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.6.3.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=MrlRCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=MrlRCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=MrlRCwAAQBAJ&printsec=frontcover&dq=ux+design&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.com.au/books?id=MrlRCwAAQBAJ&dq=ux+design&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/UX_for_Beginners.html?hl=&id=MrlRCwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=MrlRCwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Based on the popular UX Crash Course from Joel Marsh?s blog?read over a million times?this book follows the real-life UX process from start-to-finish, so you can apply the skills as you learn."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "J8zDEAAAQBAJ",
+      "etag": "YBlr+DGAfWU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/J8zDEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Killer UX Design",
+        "subtitle": "Create User Experiences to Wow Your Visitors",
+        "authors": ["Jodie Moule"],
+        "publisher": "SitePoint Pty Ltd",
+        "publishedDate": "2012-09-20",
+        "description": "Today, technology is used to shift, sway and change attitudes and behavior. This creates amazing opportunities and challenges for designers. If we want to create products and services that have the power to educate people so they may live better lives, or help to reduce the time people take to do certain tasks, we first need an understanding of how these people think and work - what makes them \"tick\" The premise of this book is the need to understand how people \"behave\"; their habits, motivators and drivers, as a critical way to better understand what a great customer experience for your audience looks like, facilitating better design decisions. The book will lead you from understanding behavior, to extracting customer insights that can launch you into the design of something that makes a difference to people's lives - all presented in a fun, practical and non-academic way.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781457191893"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "145719189X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 314,
+        "printType": "BOOK",
+        "categories": ["Computers"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=J8zDEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=J8zDEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=J8zDEAAAQBAJ&printsec=frontcover&dq=ux+design&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.com.au/books?id=J8zDEAAAQBAJ&dq=ux+design&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Killer_UX_Design.html?hl=&id=J8zDEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.au/books/download/Killer_UX_Design-sample-epub.acsm?id=J8zDEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.au/books/download/Killer_UX_Design-sample-pdf.acsm?id=J8zDEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=J8zDEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "If we want to create products and services that have the power to educate people so they may live better lives, or help to reduce the time people take to do certain tasks, we first need an understanding of how these people think and work - ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "M-AMyRVexhEC",
+      "etag": "R24NwF/TqLI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/M-AMyRVexhEC",
+      "volumeInfo": {
+        "title": "A Project Guide To Ux Design: For User Experience Designers In The Field Or In The Making",
+        "authors": ["Unger Russ"],
+        "publisher": "Pearson Education India",
+        "publishedDate": "2009-09",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "8131754960"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9788131754962"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 292,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.5.5.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=M-AMyRVexhEC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=M-AMyRVexhEC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=M-AMyRVexhEC&dq=ux+design&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.com.au/books?id=M-AMyRVexhEC&dq=ux+design&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/A_Project_Guide_To_Ux_Design_For_User_Ex.html?hl=&id=M-AMyRVexhEC"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=M-AMyRVexhEC&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "LcS_DAAAQBAJ",
+      "etag": "CHpAgKO0fEg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/LcS_DAAAQBAJ",
+      "volumeInfo": {
+        "title": "Hacking Growth",
+        "subtitle": "How Today's Fastest-Growing Companies Drive Breakout Success",
+        "authors": ["Morgan Brown", "Sean Ellis"],
+        "publisher": "Random House",
+        "publishedDate": "2017-04-27",
+        "description": "'a compelling methodology... to increase market share quickly' -- Eric Ries, bestselling author of THE LEAN STARTUP 'a must-read for anyone in business' -- James Currier, managing partner, NFX Guild 'will teach you how to think like a marketer of tomorrow' -- Josh Elman, partner, Greylock Partners Growth is now the first thing that investors, shareholders and market analysts look for in assessing and valuing companies. HACKING GROWTH is a highly accessible, practical, method for growth that involves cross-functional teams and continuous testing and iteration. Hacking Growth does for marketshare growth what THE LEAN STARTUP does for product development and BUSINESS MODEL GENERATION does for strategy. HACKING GROWTH focuses on customers - how to attain them, retain them, engage them, and monetize them - rather than product. Written by the method's pioneers, this book is a comprehensive toolkit or \"bible\" that any company in any industry can use to implement their own Growth Hacking strategy, from how to set up and run growth teams, to how to identify and test growth levers, and how to evaluate and act on the results. It is designed for any company or leader looking to break out of the ruts of traditional marketing and become more collaborative, less wasteful, and achieve more consistent, replicable, and data-driven results.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780753545386"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0753545381"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 395,
+        "printType": "BOOK",
+        "categories": ["Business & Economics"],
+        "averageRating": 5,
+        "ratingsCount": 3,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.3.4.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=LcS_DAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=LcS_DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=LcS_DAAAQBAJ&printsec=frontcover&dq=ux+design&hl=&cd=8&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=LcS_DAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=LcS_DAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 19.99,
+          "currencyCode": "AUD"
+        },
+        "retailPrice": {
+          "amount": 19.99,
+          "currencyCode": "AUD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=LcS_DAAAQBAJ&rdid=book-LcS_DAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 19990000,
+              "currencyCode": "AUD"
+            },
+            "retailPrice": {
+              "amountInMicros": 19990000,
+              "currencyCode": "AUD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.au/books/download/Hacking_Growth-sample-epub.acsm?id=LcS_DAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=LcS_DAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Written by the method&#39;s pioneers, this book is a comprehensive toolkit or &quot;bible&quot; that any company in any industry can use to implement their own Growth Hacking strategy, from how to set up and run growth teams, to how to identify and test ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "b1Ga_0p1zIUC",
+      "etag": "znjHH7lzkIM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/b1Ga_0p1zIUC",
+      "volumeInfo": {
+        "title": "Smashing UX Design",
+        "subtitle": "Foundations for Designing Online User Experiences",
+        "authors": ["Jesmond J. Allen", "James J. Chudley"],
+        "publisher": "John Wiley & Sons",
+        "publishedDate": "2012-05-03",
+        "description": "The ultimate guide to UX from the world’s most popular resource for web designers and developers Smashing Magazine is the world′s most popular resource for web designers and developers and with this book the authors provide the ideal resource for mastering User Experience Design (UX). The authors provide an overview of UX and User Centred Design and examine in detail sixteen of the most common UX design and research tools and techniques for your web projects. The authors share their top tips from their collective 30 years of working in UX including: Guides to when and how to use the most appropriate UX research and design techniques such as usability testing, prototyping, wire framing, sketching, information architecture & running workshops How to plan UX projects to suit different budgets, time constraints and business objectives Case studies from real UX projects that explain how particular techniques were used to achieve the client's goals Checklists to help you choose the right UX tools and techniques for the job in hand Typical user and business requirements to consider when designing business critical pages such as homepages, forms, product pages and mobile interfaces as well as explanations of key things to consider when designing for mobile, internationalization and behavioural change. Smashing UX Design is the complete UX reference manual. Treat it as the UX expert on your bookshelf that you can read from cover-to-cover, or to dip into as the need arises, regardless of whether you have 'UX' in your job title or not.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780470970621"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0470970626"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 608,
+        "printType": "BOOK",
+        "categories": ["Computers"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.4.5.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=b1Ga_0p1zIUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=b1Ga_0p1zIUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=b1Ga_0p1zIUC&printsec=frontcover&dq=ux+design&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.com.au/books?id=b1Ga_0p1zIUC&dq=ux+design&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Smashing_UX_Design.html?hl=&id=b1Ga_0p1zIUC"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.au/books/download/Smashing_UX_Design-sample-epub.acsm?id=b1Ga_0p1zIUC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.au/books/download/Smashing_UX_Design-sample-pdf.acsm?id=b1Ga_0p1zIUC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=b1Ga_0p1zIUC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The ultimate guide to UX from the world’s most popular resource for web designers and developers Smashing Magazine is the world′s most popular resource for web designers and developers and with this book the authors provide the ideal ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "rXMNDQAAQBAJ",
+      "etag": "lKluqzQfl3M",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/rXMNDQAAQBAJ",
+      "volumeInfo": {
+        "title": "Lean UX",
+        "subtitle": "Designing Great Products with Agile Teams",
+        "authors": ["Jeff Gothelf", "Josh Seiden"],
+        "publisher": "\"O'Reilly Media, Inc.\"",
+        "publishedDate": "2016-09-12",
+        "description": "Lean UX has become the preferred approach to interaction design, tailor-made for today’s agile teams. In the second edition of this award winning book, leading advocates Jeff Gothelf and Josh Seiden expand on the valuable Lean UX principles, tactics, and techniques covered in the first edition to share how product teams can easily incorporate design, experimentation, iteration, and continuous learning from real users into their Agile process. Inspired by Lean and Agile development theories, Lean UX lets you focus on the actual experience being designed, rather than deliverables. This book shows you how to collaborate closely with other members of your Agile product team, and gather feedback early and often. You’ll learn how to drive the design in short, iterative cycles to assess what works best for the business and the user. Lean UX shows you how to make this change—for the better. Frame a vision of the problem you’re solving and focus your team on the right outcomes Bring the designers’ toolkit to the rest of your product team Share your insights with your team much earlier in the process Create Minimum Viable Products to determine which ideas are valid Incorporate the voice of the customer throughout the project cycle Make your team more productive: combine Lean UX with Agile’s Scrum framework Understand the organizational shifts necessary to integrate Lean UX",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781491953556"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1491953551"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 191,
+        "printType": "BOOK",
+        "categories": ["Business & Economics"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.5.6.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=rXMNDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=rXMNDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=rXMNDQAAQBAJ&pg=PA1&dq=ux+design&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.com.au/books?id=rXMNDQAAQBAJ&dq=ux+design&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Lean_UX.html?hl=&id=rXMNDQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=rXMNDQAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This book shows you how to collaborate closely with other members of your Agile product team, and gather feedback early and often."
+      }
+    }
+  ]
+}

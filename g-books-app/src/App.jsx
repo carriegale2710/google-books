@@ -3,48 +3,32 @@ import Header from "./components/Header/Header";
 import SearchBar from "./components/SearchBar/SearchBar";
 import BooksLoader from "./containers/BooksLoader";
 import BooksList from "./components/BooksList/BooksList";
-import BookCard from "./components/BookCard/BookCard";
 import booksData from "./test-data/booksData.json";
 import "./App.module.scss";
 
 function App() {
-  //getting searchterm string from user input state
-  // const [searchTerm, setSearchTerm] = useState("");
-  // console.log(
-  //   `UserInput state variable(searchTerm) is currently: ${searchTerm}`
-  // );
-  // const [runningSearch, setRunningSearch] = useState(false);
-  // console.log(`Running Search: ${runningSearch}`);
+  //I will keep track of two pieces of state:
+  //1. the current input text
+  const [inputText, setInputText] = useState("");
+  //2. the final input text that will be submitted to the BooksLoader component to fetch API
+  const [searchTerm, setSearchTerm] = useState("");
 
-  // const onSubmit = (e) => {
-  //   e.preventDefault();
-  //   //user input validation
-  //   if (searchTerm === "" || searchTerm.trim() === "") {
-  //     throw new Error("empty input");
-  //   }
-  //   if (searchTerm === undefined) {
-  //     throw new Error("input invalid");
-  //   }
-  //   setSearchTerm(e.target.value);
-  //   console.log("you entered" + searchTerm);
-  //   setRunningSearch(true);
-  //   console.log("searching");
-  //   return searchTerm;
-  // };
+  //this will be passed as prop to my SearchBar to submit user input -> send to API
+  const handleSubmit = (value) => {
+    setSearchTerm(value);
+    console.log(`searchTerm is ${searchTerm}`);
+    // run the search - fetch data
+    console.log(`Running Search of ${searchTerm}`);
+  };
 
-  //render component on page
+  //render components on page
+  console.log("app renders");
   return (
     <>
       <Header />
-      {/* <SearchBar searchTerm={searchTerm} />
-      <BooksLoader searchTerm={searchTerm} runningSearch={runningSearch} />
-      <BooksList /> */}
-
-      <section>
-        {booksData.map((book) => {
-          return <BookCard bookInfo={book} />;
-        })}
-      </section>
+      <SearchBar onSubmit={handleSubmit} />
+      <BooksLoader searchTerm={searchTerm} />
+      {/* <BooksList booksData={booksData} /> */}
     </>
   );
 }
