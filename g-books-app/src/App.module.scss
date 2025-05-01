@@ -7,15 +7,17 @@
   Use modules for styling, don't forget about other SCSS features, like a separate file for palette or variables.
  */
 
-*{
+* {
   box-sizing: border-box;
   justify-content: center;
-
 }
 
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
 
-
-
-.hidden{
+.hidden {
   visibility: hidden;
 }

@@ -10,7 +10,7 @@
 :root {
   max-width: 100vw;
 
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -54,10 +54,31 @@ h1 {
 }
 
 p {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+//Online Public Free Fonts
+
+.cal-sans {
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
 
 //Button - styling
 
@@ -75,23 +96,18 @@ button {
 
 //Micro-interactions
 
-
-
-
 //Site-Responsiveness
 
-//NOTE - media queries - flexbox enough for now - add after complexity 
+//NOTE - media queries - flexbox enough for now - add after complexity
 
-//1. device size 
-  // - mobile: < 481px  
-  // - iPad/Tablets: 481px-768px  
-  // - small screens,laptops: 769px-1024px  
-  // - desktops, large screens: 1025px-1200px  
-  // - extra large screens: 1201px >  
+//1. device size
+// - mobile: < 481px
+// - iPad/Tablets: 481px-768px
+// - small screens,laptops: 769px-1024px
+// - desktops, large screens: 1025px-1200px
+// - extra large screens: 1201px >
 
 //2. device orientation - add if needed later
-
-
 
 //BONUS
 //light mode vs //dark mode
@@ -108,5 +124,3 @@ button {
 //     background-color: #f9f9f9;
 //   }
 // }
-
-

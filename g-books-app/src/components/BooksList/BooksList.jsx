@@ -10,5 +10,5 @@ const BooksList = (data) => {
 
 export default BooksList;
 
-/* load a grid of book results here - see album challenge lesson */
+/* load a grid of book results here - see book challenge lesson */
 // just takes in a array  - easiest to test

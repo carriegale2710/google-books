@@ -1,16 +1,29 @@
 import { useState } from "react";
-import "./BookCard.module.scss";
+import styles from "./BookCard.module.scss";
 
-const BookCard = ({ title, content }) => {
-  const [contentVisible, setContentVisible] = useState(true);
+const BookCard = ({ bookInfo }) => {
+  console.log(bookInfo);
+
   return (
-    <article>
-      <h2>{title}</h2>
-      <button>
-        {contentVisible ? "Hide" : "Show"}
-        Content
-      </button>
-      {contentVisible && <p>{content}</p>}
+    <article
+      className={styles.card}
+      style={{ backgroundImage: `url(${bookInfo.imageLink})` }}
+    >
+      {/* {bookInfo.rating === 5 && <Banner text="Top Rated" />} */}
+      {/* {book.isOnSale === true && <Banner text="On sale" color="purple" />} */}
+      {/* <div className={styles.blackUnderlay}></div> */}
+      <div
+        className={styles.bookCoverImg}
+        style={{ backgroundImage: `url(${bookInfo.imageLink})` }}
+      ></div>
+      {/*Book Details*/}
+      <div className={styles.details}>
+        <h3>{bookInfo.title}</h3>
+        <p>
+          {bookInfo.author} - {bookInfo.year}
+        </p>
+        <p>Description: {bookInfo.description}</p>
+      </div>
     </article>
   );
 };

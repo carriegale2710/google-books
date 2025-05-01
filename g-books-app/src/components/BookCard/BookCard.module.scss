@@ -1,0 +1,72 @@
+.card {
+  // width: 400px;
+  // height: 600px;
+  aspect-ratio: 3 / 4;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  margin: 10px;
+  background: opacity($color: #00000028);
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+
+  .details {
+    display: none;
+    position: absolute;
+    z-index: 2;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    // width: 100%;
+    // height: 100%;
+    background-color: black;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+  }
+
+  &:hover {
+    .details {
+      color: white;
+      display: block;
+      min-width: 30%;
+      max-width: 80%;
+      height: auto;
+      max-height: 300px;
+      overflow-y: auto;
+      scrollbar-width: none;
+      margin: 15px;
+      align-content: center;
+    }
+    &::after {
+      opacity: 0.8;
+    }
+  }
+}
+
+.bookCoverImg {
+  // max-width: 150px;
+  // max-height: 200px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  margin: 10px;
+}
+
+h3 {
+  font-style: italic;
+}
+
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}

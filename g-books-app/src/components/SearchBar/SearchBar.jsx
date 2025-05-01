@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import "./SearchBar.module.scss";
-import { onSubmit } from "../../services/book-services";
 
 const SearchBar = ({ searchTerm }) => {
   //only call API when submit button is clicked\
