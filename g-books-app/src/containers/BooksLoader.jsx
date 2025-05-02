@@ -1,35 +1,48 @@
 import { useEffect, useState } from "react";
-import { getBooksBySearchTerm } from "../services/book-services";
 import BooksList from "../components/BooksList/BooksList";
+import { getBooksBySearchTerm } from "../services/book-services";
 
 const BooksLoader = ({ searchTerm }) => {
   const [booksList, setBooksList] = useState([]);
   const [error, setError] = useState("");
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState("");
 
+  //will only fetch data if input is valid
   useEffect(() => {
+    console.log("searchTerm is passed from App:" + searchTerm);
     //check input is valid first
-    if (searchTerm || searchTerm.trim() === "") {
-    } else if (searchTerm === undefined) {
+    if (searchTerm === "" || searchTerm.trim() === "") {
       return;
     }
+    if (searchTerm === undefined) {
+      throw new Error("input invalid");
+    }
 
+    //once valid, start loading data
     setIsLoading(true);
     console.log(`Loading for input: ${searchTerm}`);
 
+    //call API function
     getBooksBySearchTerm(searchTerm)
-      .then((booksList) => {
-        setBooks(booksList);
-        setLoading(false);
+      .then((response) => {
+        console.log("results recevied from book-services:" + response);
+
+        const booksResults = response.items.map((volume) => volume.volumeInfo);
+        console.log("Books found:", booksResults);
+
+        setBooksList(booksResults);
+        setIsLoading(false);
+        console.log("BooksLoader - Loading complete");
       })
       .catch((err) => {
         setError(err.message);
-        setLoading(false);
+        setIsLoading(false);
       });
-
-    console.log("Loading complete");
   }, [searchTerm]);
+  console.log(booksList);
+  return <BooksList booksList={booksList} />; //return the data and send to BooksList component
 };
+
 export default BooksLoader;
 // try {
 //   // console.log(`Props passed to searchTerm: ${searchTerm}`);

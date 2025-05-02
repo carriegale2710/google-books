@@ -1,35 +1,23 @@
 export const getBooksBySearchTerm = async (searchTerm) => {
-  console.log(`Props passed to book-services.js: searchTerm: ${searchTerm}`); //userinput as param
+  console.log("book-service.js is called by BooksLoader");
+  //props
+  console.log(`Props passed to book-services.js: searchTerm: ${searchTerm}`);
+
+  //userinput as param
+  const apiUrl = `https://www.googleapis.com/books/v1/volumes?q=${searchTerm}&=limit=10`;
 
   //API call
-  const apiUrl = `https://www.googleapis.com/books/v1/volumes?q=${searchTerm}&=limit=10`;
-  await fetch(apiUrl) // Make a GET request using the Fetch API
-    .then((response) => {
-      if (searchTerm === "" || searchTerm.trim() === "") {
-        throw new Error("empty input");
-      }
-      if (searchTerm === undefined) {
-        throw new Error("input invalid");
-      }
-      if (!response.ok) {
-        //checking data was successfully fetched
-        throw new Error(`Failed to fetch data`);
-      }
-      if (response.totalItems === 0) {
-        //checking empty results
-        throw new Error(`No books matched your search query ${searchTerm}`);
-      } 
-      // Process the retrieved user data
-      const bookData = await response.json();
-      const booksList = bookData.items.map((volume) => volume.volumeInfo);
-      console.log("Books found:", booksList.title);
-      return booksList;
-      
-    })
-    .catch((error) => {
-      //Catch and provide error messages
-      console.error("Error:", error);
-    });
+  try {
+    const response = await fetch(apiUrl);
+    if (!response.ok) {
+      throw new Error("Failed to fetch data");
+    }
+    const booksData = await response.json();
+    return booksData;
+  } catch (error) {
+    console.error("Error:", error);
+    throw error;
+  }
 };
 
 /* NOTE :

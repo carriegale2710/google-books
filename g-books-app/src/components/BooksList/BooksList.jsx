@@ -1,12 +1,20 @@
 import "./BooksList.module.scss";
 import BookCard from "../BookCard/BookCard";
 
-const BooksList = (booksData) => {
+const BooksList = ({ booksList }) => {
+  console.log("booksList passed from BooksLoader:", booksList);
+  // const totalItems = booksData.totalItems;
+  // const booksListArr = booksData.items;
+  // console.log(booksListArr);
+
   return (
     <>
-      {booksData.map((book) => {
-        return <BookCard bookInfo={book} />;
-      })}
+      <section className="booksGrid">
+        {booksList.map((book) => {
+          console.log(`Loading ${book.title}`);
+          return <BookCard key={book.id} bookInfo={book} />;
+        })}
+      </section>
     </>
   );
 };

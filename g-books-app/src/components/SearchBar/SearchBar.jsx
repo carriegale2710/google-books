@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import "./SearchBar.module.scss";
 
-const SearchBar = ({ onSubmit }) => {
+const SearchBar = ({ onSubmit, inputText, setInputText }) => {
+  // console.log("input text :" + inputText);
   //this keeps track of live inputted text by user and updates for every letter
   const handleChange = (e) => {
     setInputText(e.target.value);
@@ -27,7 +28,7 @@ const SearchBar = ({ onSubmit }) => {
         />
       </label>
       <br />
-      <button type="submit" id="search-button" alt-te>
+      <button type="submit" id="search-button">
         Search
       </button>
     </form>

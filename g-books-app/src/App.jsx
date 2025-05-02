@@ -3,7 +3,7 @@ import Header from "./components/Header/Header";
 import SearchBar from "./components/SearchBar/SearchBar";
 import BooksLoader from "./containers/BooksLoader";
 import BooksList from "./components/BooksList/BooksList";
-import booksData from "./test-data/booksData.json";
+// import booksData from "./test-data/fetchedDataExample.json";
 import "./App.module.scss";
 
 function App() {
@@ -16,17 +16,22 @@ function App() {
   //this will be passed as prop to my SearchBar to submit user input -> send to API
   const handleSubmit = (value) => {
     setSearchTerm(value);
-    console.log(`searchTerm is ${searchTerm}`);
+    console.log(`searchTerm is set to: ${searchTerm}`);
     // run the search - fetch data
-    console.log(`Running Search of ${searchTerm}`);
+    console.log(`Searching Books about: ${searchTerm}`);
   };
 
   //render components on page
   console.log("app renders");
+
   return (
     <>
       <Header />
-      <SearchBar onSubmit={handleSubmit} />
+      <SearchBar
+        onSubmit={handleSubmit}
+        inputText={inputText}
+        setInputText={setInputText}
+      />
       <BooksLoader searchTerm={searchTerm} />
       {/* <BooksList booksData={booksData} /> */}
     </>
