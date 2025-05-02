@@ -5,8 +5,8 @@ const BookCard = ({ bookInfo }) => {
   const title = bookInfo.title;
   console.log(title);
   console.log(bookInfo);
-  const subtitle = bookInfo.subtitle;
-  const fullTitle = `${title} : ${subtitle}`;
+  // const subtitle = bookInfo.subtitle;
+  // const fullTitle = `${title} : ${subtitle}`;
 
   const authors = bookInfo.authors; //array
   const publishedDate = bookInfo.publishedDate;
@@ -42,11 +42,14 @@ const BookCard = ({ bookInfo }) => {
       ></div>
       {/*Book Details*/}
       <div className={styles.details}>
-        <h3>{fullTitle}</h3>
+        <a href={canonicalVolumelink}>
+          <h3>{title}</h3>
+        </a>
         <p>
-          {authors} - {publishedDate} - {categories}
+          {authors} - {publishedDate}
         </p>
-        <p>Description: {description}</p>
+        <p>{categories}</p>
+        <p>{description}</p>
         <a href={canonicalVolumelink}></a>
       </div>
     </article>
