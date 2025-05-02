@@ -4,7 +4,7 @@ export const getBooksBySearchTerm = async (searchTerm) => {
   console.log(`Props passed to book-services.js: searchTerm: ${searchTerm}`);
 
   //userinput as param
-  const apiUrl = `https://www.googleapis.com/books/v1/volumes?q=${searchTerm}&=limit=10`;
+  const apiUrl = `https://www.googleapis.com/books/v1/volumes?q=${searchTerm}&=limit=20`;
 
   //API call
   try {
@@ -16,7 +16,6 @@ export const getBooksBySearchTerm = async (searchTerm) => {
     return booksData;
   } catch (error) {
     console.error("Error:", error);
-    throw error;
   }
 };
 

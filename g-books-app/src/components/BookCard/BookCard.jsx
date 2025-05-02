@@ -46,7 +46,7 @@ const BookCard = ({ bookInfo }) => {
           <h3>{title}</h3>
         </a>
         <p>
-          {authors} - {publishedDate}
+          {authors}, {publishedDate}
         </p>
         <p>{categories}</p>
         <p>{description}</p>
