@@ -4,7 +4,7 @@ import SearchBar from "./components/SearchBar/SearchBar";
 import BooksLoader from "./containers/BooksLoader";
 import BooksList from "./components/BooksList/BooksList";
 // import booksData from "./test-data/fetchedDataExample.json";
-import "./App.module.scss";
+import "./App.scss";
 
 function App() {
   //I will keep track of two pieces of state:

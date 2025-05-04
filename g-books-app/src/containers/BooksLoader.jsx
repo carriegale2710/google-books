@@ -44,36 +44,13 @@ const BooksLoader = ({ searchTerm }) => {
 };
 
 export default BooksLoader;
-// try {
-//   // console.log(`Props passed to searchTerm: ${searchTerm}`);
-//   //user input validation
-//   if (searchTerm === "" || searchTerm.trim() === "") {
-//     throw new Error("empty input");
-//   }
-//   if (searchTerm === undefined) {
-//     throw new Error("input invalid");
-//   }
-//   const booksList = /*await*/ getBooksBySearchTerm(searchTerm); //-> calls fn in book-services with userinput as param
-//   console.log(booksList);
-//   return (
-//     <>
-//       <BooksList booksData={booksList} />
-//     </>
-//   );
-// } catch (error) {
-//   console.log(`Error: ${error}`);
-// } finally {
-//   console.log("resolved");
-// }
 
-//hardest to test
+//NOTE - this component is the hardest to test (due to data fetching - unpredictability)
 
+//NOTE - About useEffect:
 //a useEffect will be triggered whenever search value changes (unless null)
-// useEffect(() => {
 //   if (searchValue === null) return; //initial value
 //   setFetchStatus('Loading...');
 //   getBooksBySearchTerm(searchValue)
 //     .then()
 // }
-
-//how is this component different from book-services tho>??

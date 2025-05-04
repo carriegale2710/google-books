@@ -28,6 +28,7 @@ const BookCard = ({ bookInfo }) => {
     imgLink = bookInfo.imageLinks.thumbnail;
     console.log(imgLink);
   } catch (e) {
+    console.log(e);
     console.log("Error getting imgLink from bookInfo");
   }
 

@@ -15,7 +15,7 @@ export const getBooksBySearchTerm = async (searchTerm) => {
     const booksData = await response.json();
     return booksData;
   } catch (error) {
-    console.error("Error:", error);
+    console.error("Error:", error); //let thru to Loader
   }
 };
 
